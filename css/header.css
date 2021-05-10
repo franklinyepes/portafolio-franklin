@@ -3,19 +3,19 @@ heder {
   height:80px;
   display: flex;
   justify-content: space-between;
-  aligh-items: center;
+  align-items: center;
 }
 
 .Logo {
     color: #000;
-    front-size; 24px;
-    font-weight; 980;
-    font-family: ¨poppins¨, sans-serif;
+    font-size: 24px;
+    font-weight: 980;
+    font-family:poppins¨, sans-serif;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left:20px;
 }
 .cv{
-  background-color:colo:var(--primary);
+  background-color:var(--primary);
   padding: 16px 22px;
   border-radius: 90px;
   margin-right: 20px;
