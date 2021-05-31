@@ -1,11 +1,17 @@
-import¨heder.css¨
+@import "header.css";
 
-{    
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+
+:root {    
+  --bg-color: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);
+  --primary:#42e2b8;
+  }
+ * {
 margin:0;
 padding:0;    
 }
-body (
-    background:var( --bg-color);
+body {
+    background:var(--bg-color);
     width: 100vw;
     height: 100vh;
 }
